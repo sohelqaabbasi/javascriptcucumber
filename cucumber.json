@@ -1,0 +1,16 @@
+{
+    "default": {
+      "dryRun": false,
+      "formatOptions": {
+        "snippetInterface": "async-await"
+      },
+      "paths": ["tests/features/*.feature"],
+      "require": ["tests/steps/*.js"],
+      "format":[
+            ["json","reports/cucumber_report.json"],
+            ["junit","reports/junit_report.xml"],
+            ["html","reports/html_report.html"]
+          ]
+    }
+  }
+  
